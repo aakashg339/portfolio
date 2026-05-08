@@ -19,11 +19,11 @@ function Hero() {
                             Designation
                         </p>
                         <p className="text-lg text-slate-600 mb-8 max-w-2xl">
-                            Building scalable web applications that solve real problems.
+                            A short bio.
                         </p>
                         <div className="flex gap-4 justify-center md:justify-start">
                             <a
-                                href="mailto:your.email@example.com"
+                                href="mailto:email@example.com"
                                 className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-lg"
                             >
                                 Get In Touch
