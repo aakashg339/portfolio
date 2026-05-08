@@ -6,13 +6,13 @@ function Hero() {
             <section id="hero" className="px-6 py-20 md:py-32 max-w-6xl mx-auto pt-32">
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     {/* Profile Image Placeholder */}
-                    <div className="w-48 h-48 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-2xl">
+                    <div className="w-48 h-48 rounded-full bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-2xl">
                         <FaCode className="w-24 h-24 text-white" />
                     </div>
 
                     {/* Hero Text */}
                     <div className="flex-1 text-center md:text-left">
-                        <h1 className="text-5xl md:text-6xl mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                        <h1 className="text-5xl md:text-6xl mb-4 bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                             My Name
                         </h1>
                         <p className="text-2xl text-slate-700 mb-6">
