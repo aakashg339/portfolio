@@ -4,6 +4,7 @@ import Hero from './components/hero/Hero'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Education from './components/education/Education'
+import Skills from './components/skills/Skills'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Experience />
         <Education />
+        <Skills />
       </div>
     </>
   )
