@@ -1,6 +1,9 @@
+import ParapraphList from "../common/ParapraphList";
 import SectionHeading from "../common/SectionHeading";
 
 function About() {
+    const aboutMeParagraphs = ["More details about myself", "More details about myself", "More details about myself"];
+
     return (
         <>
             <section id="about" className="px-6 py-16 bg-white transition-colors">
@@ -10,15 +13,7 @@ function About() {
 
                     {/* Details */}
                     <div className="space-y-4 text-lg text-slate-700 leading-relaxed max-w-3xl">
-                        <p className="">
-                            More details about myself
-                        </p>
-                        <p className="">
-                            More details about myself
-                        </p>
-                        <p className="">
-                            More details about myself
-                        </p>
+                        <ParapraphList parapraphs={aboutMeParagraphs} />
                     </div>
                 </div>
             </section>
