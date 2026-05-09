@@ -7,23 +7,23 @@ function Projects() {
     const projects = [
         {
             id: 1,
-            name: "Some Name",
-            description: "Some description", 
+            name: "Some Name 1",
+            description: "Some description 1", 
             tools: ["tech1", "tech2"], 
             externalLink: "#"
         },
         {
             id: 2,
-            name: "Some Name",
-            description: "Some description", 
+            name: "Some Name 2",
+            description: "Some description 2", 
             tools: ["tech1", "tech2"], 
             externalLink: "#"
         },
         {
             id: 3,
-            name: "Some Name",
-            description: "Some description", 
-            tools: ["tech1", "tech2"], 
+            name: "Some Name 3",
+            description: "Some description 3", 
+            tools: ["tech1", "tech2", "tech3", "tech4", "tech5", "tech6", "tech7"], 
             externalLink: "#"
         }
     ];

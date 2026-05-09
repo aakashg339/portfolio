@@ -59,10 +59,10 @@ function ProjectItem({ idx, name, description, tools, externalLink }) {
 
                 <div className="p-6">
                     <h3 className="text-xl mb-2 text-slate-900">
-                        Project 1
+                        {name}
                     </h3>
                     <p className="text-slate-700 mb-4">
-                        Description of project
+                        {description}
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {
