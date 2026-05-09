@@ -4,6 +4,7 @@ import ExperienceItem from "./ExperienceItem";
 function Experience() {
     const experiences = [
         {
+            id: 1,
             designation: "Some Designaion", 
             companyName: "Some company", 
             yearFrom: "2023", 
@@ -11,6 +12,7 @@ function Experience() {
             description: "Did something for the company"
         },
         {
+            id: 2,
             designation: "Some Designaion 2", 
             companyName: "Some company 2", 
             yearFrom: "2023", 
@@ -31,7 +33,7 @@ function Experience() {
                         {/* Company Details */}
                         {
                             experiences.map((experience, idx) => (
-                                <ExperienceItem {...experience} />
+                                <ExperienceItem key={experience.id} {...experience} />
                             ))
                         }
                     </div>
