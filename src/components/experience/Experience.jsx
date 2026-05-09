@@ -1,4 +1,5 @@
 import { CiCalendar } from "react-icons/ci";
+import SectionHeading from "../common/SectionHeading";
 
 function Experience() {
     return (
@@ -6,9 +7,8 @@ function Experience() {
             <section id="experience" className="px-6 py-16 bg-slate-50 transition-colors" >
                 <div className="max-w-6xl mx-auto">
                     {/* Section Heading */}
-                    <h2 className="text-3xl mb-12 text-slate-900 border-l-4 border-blue-600 pl-4">
-                        Experience
-                    </h2>
+                    <SectionHeading headingText={"Experience"} />
+
                     {/* Details */}
                     <div className="space-y-8 relative before:absolute before:left-1.75 before:top-0 before:h-full before:w-0.5 before:bg-blue-200">
                         {/* Company Details */}

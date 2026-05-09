@@ -1,5 +1,6 @@
 import { FaCode } from "react-icons/fa6";
 import { FiExternalLink } from "react-icons/fi";
+import SectionHeading from "../common/SectionHeading";
 
 function Projects() {
     return (
@@ -7,9 +8,7 @@ function Projects() {
             <section id="projects" className="px-6 py-16 bg-white transition-colors">
                 <div className="max-w-6xl mx-auto">
                     {/* Section heading */}
-                    <h2 className="text-3xl mb-12 text-slate-900 border-l-4 border-blue-600 pl-4">
-                        Featured Projects
-                    </h2>
+                    <SectionHeading headingText={"Featured Projects"} />
 
                     {/* Details */}
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

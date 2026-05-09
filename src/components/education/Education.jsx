@@ -1,5 +1,6 @@
 import { LuGraduationCap } from "react-icons/lu";
 import { CiCalendar } from "react-icons/ci";
+import SectionHeading from "../common/SectionHeading";
 
 function Education() {
     return (
@@ -7,9 +8,7 @@ function Education() {
             <section id="education" className="px-6 py-16 bg-white transition-colors">
                 <div className="max-w-6xl mx-auto">
                     {/* Section heading */}
-                    <h2 className="text-3xl mb-12 text-slate-900 border-l-4 border-blue-600 pl-4">
-                        Education
-                    </h2>
+                    <SectionHeading headingText={"Education"} />
 
                     {/* Details */}
                     <div className="space-y-6">

@@ -1,3 +1,5 @@
+import SectionHeading from "../common/SectionHeading";
+
 function Skills() {
     const skillsArr = ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7", "skill8"];
 
@@ -6,9 +8,7 @@ function Skills() {
             <section id="skills" className="px-6 py-16 bg-slate-50 transition-colors">
                 <div className="max-w-6xl mx-auto">
                     {/* Section heading */}
-                    <h2 className="text-3xl mb-12 text-slate-900 border-l-4 border-blue-600 pl-4">
-                        Skills & Technologies
-                    </h2>
+                    <SectionHeading headingText={"Skills"} />
 
                     {/* Details */}
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
