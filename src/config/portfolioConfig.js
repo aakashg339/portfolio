@@ -107,6 +107,10 @@ const portfolioConfig = {
                 link: "#"
             }
         ]
+    },
+    footer: {
+        name: "Name",
+        year: 2022
     }
 }
 
