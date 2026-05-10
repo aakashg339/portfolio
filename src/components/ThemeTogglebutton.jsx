@@ -35,4 +35,4 @@ function ThemeToggleButton() {
     );
 }
 
-export default ThemeTogglebutton;
+export default ThemeToggleButton;
