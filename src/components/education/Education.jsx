@@ -1,33 +1,11 @@
+import portfolioConfig from "../../config/portfolioConfig";
 import SectionHeading from "../common/SectionHeading";
 import EducationItem from "./EducationItem";
 
 function Education() {
-    const educationDetails = [
-        {
-            id: 1, 
-            degree: "Some Degree", 
-            institute: "Some institute", 
-            yearFrom: "2023", 
-            yearTo: "2025", 
-            description: "Some description"
-        },
-        {
-            id: 2, 
-            degree: "Some Degree 2", 
-            institute: "Some institute 2", 
-            yearFrom: "2023", 
-            yearTo: "2025", 
-            description: "Some description 2"
-        },
-        {
-            id: 3, 
-            degree: "Some Degree 3", 
-            institute: "Some institute 3", 
-            yearFrom: "2023", 
-            yearTo: "2025", 
-            description: "Some description 3"
-        }
-    ];
+    const educationSectionData = portfolioConfig.education;
+    
+    const educationDetails = educationSectionData.education;
 
     return (
         <>
