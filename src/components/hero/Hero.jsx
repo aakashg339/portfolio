@@ -1,6 +1,9 @@
 import { FaCode } from "react-icons/fa6";
+import portfolioConfig from "../../config/portfolioConfig";
 
 function Hero() {
+    const heroSectionDetails = portfolioConfig.hero;
+
     return (
         <>
             <section id="hero" className="px-6 py-20 md:py-32 max-w-6xl mx-auto pt-32">
@@ -13,13 +16,13 @@ function Hero() {
                     {/* Hero Text */}
                     <div className="flex-1 text-center md:text-left">
                         <h1 className="text-5xl md:text-6xl mb-4 bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                            My Name
+                            {heroSectionDetails.name}
                         </h1>
                         <p className="text-2xl text-slate-700 dark:text-slate-300 mb-6">
-                            Designation
+                            {heroSectionDetails.designation}
                         </p>
                         <p className="text-lg text-slate-600 dark:text-slate-400 mb-8 max-w-2xl">
-                            A short bio.
+                            {heroSectionDetails.description}
                         </p>
                         <div className="flex gap-4 justify-center md:justify-start">
                             <a
