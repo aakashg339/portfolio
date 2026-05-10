@@ -9,7 +9,7 @@ import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
-import ThemeToggleButton from './components/ThemeTogglebutton'
+import ThemeToggleButton from './components/ThemeToggleButton'
 
 function App() {
 
