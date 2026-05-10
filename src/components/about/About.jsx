@@ -1,8 +1,9 @@
+import portfolioConfig from "../../config/portfolioConfig";
 import ParapraphList from "../common/ParapraphList";
 import SectionHeading from "../common/SectionHeading";
 
 function About() {
-    const aboutMeParagraphs = ["More details about myself", "More details about myself", "More details about myself"];
+    const aboutMeSectionData = portfolioConfig.about;
 
     return (
         <>
@@ -13,7 +14,7 @@ function About() {
 
                     {/* Details */}
                     <div className="space-y-4 text-lg text-slate-700 dark:text-slate-300 leading-relaxed max-w-3xl">
-                        <ParapraphList parapraphs={aboutMeParagraphs} />
+                        <ParapraphList parapraphs={aboutMeSectionData.paragraphs} />
                     </div>
                 </div>
             </section>
