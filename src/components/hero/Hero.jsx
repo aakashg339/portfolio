@@ -2,7 +2,7 @@ import { FaCode } from "react-icons/fa6";
 import portfolioConfig from "../../config/portfolioConfig";
 
 function Hero() {
-    const heroSectionDetails = portfolioConfig.hero;
+    const heroSectionData = portfolioConfig.hero;
 
     return (
         <>
@@ -16,13 +16,13 @@ function Hero() {
                     {/* Hero Text */}
                     <div className="flex-1 text-center md:text-left">
                         <h1 className="text-5xl md:text-6xl mb-4 bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                            {heroSectionDetails.name}
+                            {heroSectionData.name}
                         </h1>
                         <p className="text-2xl text-slate-700 dark:text-slate-300 mb-6">
-                            {heroSectionDetails.designation}
+                            {heroSectionData.designation}
                         </p>
                         <p className="text-lg text-slate-600 dark:text-slate-400 mb-8 max-w-2xl">
-                            {heroSectionDetails.description}
+                            {heroSectionData.description}
                         </p>
                         <div className="flex gap-4 justify-center md:justify-start">
                             <a
