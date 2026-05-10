@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { LuSun, LuMoon } from "react-icons/lu";
 
-function ThemeTogglebutton() {
+function ThemeToggleButton() {
     const [isDark, setIsDark] = useState(false);
 
     const toggleTheme = () => {

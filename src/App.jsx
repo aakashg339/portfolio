@@ -9,7 +9,7 @@ import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
-import ThemeTogglebutton from './components/ThemeTogglebutton'
+import ThemeToggleButton from './components/ThemeTogglebutton'
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
     <>
       <div className='min-h-screen bg-linear-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 transition-colors'>
         <Navbar />
-        <ThemeTogglebutton />
+        <ThemeToggleButton />
         <Hero />
         <About />
         <Experience />
