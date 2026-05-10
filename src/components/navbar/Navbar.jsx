@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { LuMenu } from "react-icons/lu";
 import { MdClose } from "react-icons/md";
+import portfolioConfig from "../../config/portfolioConfig";
 
 function Navbar() {
+    const navbarSectionData = portfolioConfig.navbar;
+
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const navItems = [
@@ -59,7 +62,7 @@ function Navbar() {
                             onClick={() => scrollToSection("hero")}
                             className="text-xl bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent cursor-pointer"
                         >
-                            Name
+                            {navBarSectionData.name}
                         </button>
 
                         {/* Desktop menu with navigation logic */}

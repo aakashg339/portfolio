@@ -1,6 +1,9 @@
 import { ContactType } from "../constants/contact"
 
 const portfolioConfig = {
+    navbar: {
+        name: "Name"
+    },
     hero: {
         name: "Name",
         designation: "Designation",
