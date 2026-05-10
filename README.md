@@ -4,21 +4,21 @@ A modern, configuration-driven personal portfolio application built with React, 
 
 ## 📋 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Features](#features)
+- [Project Overview](#-project-overview)
+- [Features](#-features)
 - [Tech Stack](#tech-stack)
-- [Architecture & Design Decisions](#architecture--design-decisions)
-- [Folder Structure](#folder-structure)
-- [Configuration-Driven Design](#configuration-driven-design)
-- [Responsive Design Approach](#responsive-design-approach)
-- [Dark Mode Implementation](#dark-mode-implementation)
-- [Installation & Setup](#installation--setup)
-- [Running Locally](#running-locally)
-- [Build & Deployment](#build--deployment)
-- [Development Workflow](#development-workflow)
-- [Future Improvements](#future-improvements)
-- [Learning Outcomes](#learning-outcomes)
-- [License](#license)
+- [Architecture & Design Decisions](#-architecture--design-decisions)
+- [Folder Structure](#-folder-structure)
+- [Configuration-Driven Design](#-configuration-driven-design)
+- [Responsive Design Approach](#-responsive-design-approach)
+- [Dark Mode Implementation](#-dark-mode-implementation)
+- [Installation & Setup](#-installation--setup)
+- [Running Locally](#-running-locally)
+- [Build & Deployment](#-build--deployment)
+- [Development Workflow](#-development-workflow)
+- [Future Improvements](#-future-improvements)
+- [Learning Outcomes](#-learning-outcomes)
+- [License](#-license)
 
 ## 🎯 Project Overview
 
