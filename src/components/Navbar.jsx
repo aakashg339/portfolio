@@ -52,7 +52,7 @@ function Navbar() {
     
     return (
         <>
-            <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md shadow-md z-40 transition-colors">
+            <nav className="fixed top-0 left-0 right-0 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md shadow-md z-40 transition-colors">
                 <div className="max-w-6xl mx-auto px-6 py-4">
                     <div className="flex items-center justify-between">
                         <button 
@@ -68,7 +68,7 @@ function Navbar() {
                                 <button
                                     key={idx}
                                     onClick={() => scrollToSection(item.id)}
-                                    className="text-slate-700 hover:text-blue-600 transition-colors"
+                                    className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                                 >
                                 {item.label}
                                 </button>
@@ -78,7 +78,7 @@ function Navbar() {
                         {/* Mobile menu button */}
                         <button
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                            className="md:hidden p-2 text-slate-700"
+                            className="md:hidden p-2 text-slate-700 dark:text-slate-300"
                         >
                             {
                                 mobileMenuOpen 
@@ -95,7 +95,7 @@ function Navbar() {
                                 <button
                                     key={idx}
                                     onClick={() => scrollToSection(item.id)}
-                                    className="block w-full text-left px-4 py-2 text-slate-700 hover:bg-blue-50 rounded transition-colors"
+                                    className="block w-full text-left px-4 py-2 text-slate-700 dark:text-slate-300 hover:bg-blue-50 dark:hover:bg-slate-800 rounded transition-colors"
                                 >
                                     {item.label}
                                 </button>

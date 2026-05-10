@@ -30,7 +30,7 @@ function Projects() {
 
     return (
         <>
-            <section id="projects" className="px-6 py-16 bg-white transition-colors">
+            <section id="projects" className="px-6 py-16 bg-white dark:bg-slate-800 transition-colors scroll-mt-20">
                 <div className="max-w-6xl mx-auto">
                     {/* Section heading */}
                     <SectionHeading headingText={"Featured Projects"} />
