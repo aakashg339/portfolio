@@ -18,12 +18,20 @@ function Education() {
             yearFrom: "2023", 
             yearTo: "2025", 
             description: "Some description 2"
+        },
+        {
+            id: 3, 
+            degree: "Some Degree 3", 
+            institute: "Some institute 3", 
+            yearFrom: "2023", 
+            yearTo: "2025", 
+            description: "Some description 3"
         }
     ];
 
     return (
         <>
-            <section id="education" className="px-6 py-16 bg-white transition-colors">
+            <section id="education" className="px-6 py-16 bg-white dark:bg-slate-800 transition-colors scroll-mt-20">
                 <div className="max-w-6xl mx-auto">
                     {/* Section heading */}
                     <SectionHeading headingText={"Education"} />
