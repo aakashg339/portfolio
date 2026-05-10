@@ -62,7 +62,7 @@ function Navbar() {
                             onClick={() => scrollToSection("hero")}
                             className="text-xl bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent cursor-pointer"
                         >
-                            {navBarSectionData.name}
+                            {navbarSectionData.name}
                         </button>
 
                         {/* Desktop menu with navigation logic */}

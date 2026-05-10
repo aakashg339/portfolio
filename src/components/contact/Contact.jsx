@@ -7,7 +7,7 @@ import ContactItem from "./ContactItem";
 function Contact() {
     const contactSectionData = portfolioConfig.contact;
 
-    const contacts = contactSectionData.contacts;
+    const contacts = contactSectionData.items;
 
     return (
         <>

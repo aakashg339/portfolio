@@ -5,7 +5,7 @@ import EducationItem from "./EducationItem";
 function Education() {
     const educationSectionData = portfolioConfig.education;
     
-    const educationDetails = educationSectionData.education;
+    const educationDetails = educationSectionData.items;
 
     return (
         <>

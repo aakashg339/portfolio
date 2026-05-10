@@ -17,7 +17,7 @@ const portfolioConfig = {
         ]
     },
     experience: {
-        experiences: [
+        items: [
             {
                 id: 1,
                 designation: "Some Designaion", 
@@ -37,7 +37,7 @@ const portfolioConfig = {
         ]
     },
     education: {
-        education: [
+        items: [
             {
                 id: 1, 
                 degree: "Some Degree", 
@@ -65,10 +65,10 @@ const portfolioConfig = {
         ]
     },
     skills: {
-        skills: ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7", "skill8"]
+        items: ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7", "skill8"]
     },
     projects: {
-        projects: [
+        items: [
             {
                 id: 1,
                 name: "Some Name 1",
@@ -93,7 +93,7 @@ const portfolioConfig = {
         ]
     },
     contact: {
-        contacts: [
+        items: [
             {
                 id: 1,
                 type: ContactType.EMAIL,

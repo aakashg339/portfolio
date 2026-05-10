@@ -7,7 +7,7 @@ import portfolioConfig from "../../config/portfolioConfig";
 function Projects() {
     const projectsSectionData = portfolioConfig.projects;
 
-    const projects = projectsSectionData.projects;
+    const projects = projectsSectionData.items;
 
     return (
         <>

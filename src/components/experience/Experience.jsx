@@ -5,7 +5,7 @@ import ExperienceItem from "./ExperienceItem";
 function Experience() {
     const experienceSectionData = portfolioConfig.experience;
     
-    const experiences = experienceSectionData.experiences;
+    const experiences = experienceSectionData.items;
 
     return (
         <>

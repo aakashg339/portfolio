@@ -4,7 +4,7 @@ import SectionHeading from "../common/SectionHeading";
 function Skills() {
     const skillsSectionData = portfolioConfig.skills;
 
-    const skillsArr = skillsSectionData.skills;
+    const skillsArr = skillsSectionData.items;
 
     return (
         <>
