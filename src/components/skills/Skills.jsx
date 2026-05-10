@@ -1,7 +1,10 @@
+import portfolioConfig from "../../config/portfolioConfig";
 import SectionHeading from "../common/SectionHeading";
 
 function Skills() {
-    const skillsArr = ["skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7", "skill8"];
+    const skillsSectionData = portfolioConfig.skills;
+
+    const skillsArr = skillsSectionData.skills;
 
     return (
         <>
