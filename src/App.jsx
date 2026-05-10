@@ -7,8 +7,8 @@ import Education from './components/education/Education'
 import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
+import Footer from './components/footer/Footer'
+import Navbar from './components/navbar/Navbar'
 import ThemeToggleButton from './components/ThemeToggleButton'
 
 function App() {

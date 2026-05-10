@@ -1,3 +1,5 @@
+import { ContactType } from "../constants/contact"
+
 const portfolioConfig = {
     hero: {
         name: "Name",
@@ -84,6 +86,25 @@ const portfolioConfig = {
                 description: "Some description 3", 
                 tools: ["tech1", "tech2", "tech3", "tech4", "tech5", "tech6", "tech7"], 
                 externalLink: "#"
+            }
+        ]
+    },
+    contact: {
+        contacts: [
+            {
+                id: 1,
+                type: ContactType.EMAIL,
+                link: "#"
+            },
+            {
+                id: 2,
+                type: ContactType.LINKEDIN,
+                link: "#"
+            },
+            {
+                id: 3,
+                type: ContactType.GITHUB,
+                link: "#"
             }
         ]
     }
