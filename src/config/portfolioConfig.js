@@ -7,7 +7,9 @@ const portfolioConfig = {
     hero: {
         name: "Name",
         designation: "Designation",
-        description: "A short bio"
+        description: "A short bio",
+        email: "email@example.com",
+        resumeLink: "https://www.example.com/resume.pdf"
     },
     about: {
         paragraphs: [
@@ -74,40 +76,41 @@ const portfolioConfig = {
                 name: "Some Name 1",
                 description: "Some description 1", 
                 tools: ["tech1", "tech2"], 
-                externalLink: "#"
+                externalLink: "https://www.example.com"
             },
             {
                 id: 2,
                 name: "Some Name 2",
                 description: "Some description 2", 
                 tools: ["tech1", "tech2"], 
-                externalLink: "#"
+                externalLink: "https://www.example.com"
             },
             {
                 id: 3,
                 name: "Some Name 3",
                 description: "Some description 3", 
                 tools: ["tech1", "tech2", "tech3", "tech4", "tech5", "tech6", "tech7"], 
-                externalLink: "#"
+                externalLink: "https://www.example.com"
             }
         ]
     },
     contact: {
+        description: "I am always interested in hearing about new opportunities and collaborations.",
         items: [
             {
                 id: 1,
                 type: ContactType.EMAIL,
-                link: "#"
+                link: "email@exampl.com"
             },
             {
                 id: 2,
                 type: ContactType.LINKEDIN,
-                link: "#"
+                link: "https://www.example.com"
             },
             {
                 id: 3,
                 type: ContactType.GITHUB,
-                link: "#"
+                link: "https://www.example.com"
             }
         ]
     },

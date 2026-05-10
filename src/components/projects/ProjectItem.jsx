@@ -85,6 +85,8 @@ function ProjectItem({ idx, name, description, tools, externalLink }) {
                     </div>
                     <a 
                         href={externalLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
                     >
                         View Project <FiExternalLink className="w-4 h-4" />

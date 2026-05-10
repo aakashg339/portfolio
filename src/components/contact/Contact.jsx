@@ -18,7 +18,7 @@ function Contact() {
                     </h2>
 
                     <p className="text-lg text-slate-700 dark:text-slate-300 mb-8 max-w-2xl mx-auto">
-                        I am always interested in hearing about new opportunities and collaborations.
+                        {contactSectionData.description}
                     </p>
 
                     <div className="flex gap-6 justify-center flex-wrap">

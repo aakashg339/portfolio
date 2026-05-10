@@ -26,16 +26,18 @@ function Hero() {
                         </p>
                         <div className="flex gap-4 justify-center md:justify-start">
                             <a
-                                href="mailto:email@example.com"
+                                href={`mailto:${heroSectionData.email}`}
                                 className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-lg"
                             >
                                 Get In Touch
                             </a>
                             <a
-                                href="/resume.pdf"
+                                href={heroSectionData.resumeLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="px-6 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 dark:border-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-950 transition-colors"
                             >
-                                Download Resume
+                                Resume
                             </a>
                         </div>
                     </div>
